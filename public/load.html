@@ -10,16 +10,8 @@
   <script src="/uv/uv.bundle.js" charset="UTF-8"></script>
   <script src="/uv/uv.config.js"></script>
   <script src="./js/preload.js"></script>
-
-  <script type="text/javascript">
-    atOptions = {
-      'key': '8d57283b953b8b546d6a04d4deac19dc',
-      'format': 'iframe',
-      'height': 250,
-      'width': 300,
-      'params': {}
-    };
-  </script>
+  
+  <script id="aclib" type="text/javascript" src="//acscdn.com/script/aclib.js"></script>
 </head>
 
 <body theme="main">
@@ -49,9 +41,6 @@
       </div>
       <p id="gameDescription"></p>
 
-      <script async="async" data-cfasync="false" src="//strodeintended.com/4f6e85f4c635684096b4338b181d1962/invoke.js"></script>
-
-
       <div id="menubtns">
         <a href="./gs.html">
           <button onclick="window.location.href = '/'">
@@ -73,5 +62,11 @@
 <script src="./assets/data/games.js"></script>
 <script src="./assets/data/apps.js"></script>
 <script src="./js/load.js"></script>
+
+<script type="text/javascript">
+    aclib.runAutoTag({
+        zoneId: '6hmeyutild',
+    });
+</script>
 
 </html>
